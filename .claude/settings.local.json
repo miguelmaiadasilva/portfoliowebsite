@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ssh-keyscan -H github.com)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(mkdir -p ~/.ssh)",
+      "Bash(chmod 700 ~/.ssh)",
+      "Bash(git config)",
+      "Bash(curl *)",
+      "Bash(git clone *)",
+      "Bash(pip install *)",
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Read(//private/tmp/**)",
+      "Bash(npm init *)",
+      "Bash(npx playwright *)"
+    ]
+  }
+}
