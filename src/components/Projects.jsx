@@ -9,7 +9,7 @@ const projects = [
       'Multi-page Power BI dashboard with a star schema data model, 15+ custom DAX measures, and analysis across booking trends, cancellation risk, and revenue optimisation. From raw SQL data to executive-ready insight.',
     tags: ['Power BI', 'SQL', 'DAX', 'Star Schema'],
     links: {
-      github: 'https://github.com/miguelmaiadasilva',
+      github: 'https://github.com/miguelmaiadasilva/hotel-booking-analytics-dashboard',
     },
   },
   {
@@ -19,7 +19,7 @@ const projects = [
       'Web application for interactive exploratory data analysis of CSV and Excel files. Upload any dataset and instantly explore distributions, correlations, missing values, and descriptive stats — no code required.',
     tags: ['Python', 'Streamlit', 'pandas', 'EDA'],
     links: {
-      github: 'https://github.com/miguelmaiadasilva',
+      github: 'https://github.com/miguelmaiadasilva/maia-data-analysis-app',
       live: 'https://maia-app.streamlit.app/',
     },
   },
@@ -30,7 +30,7 @@ const projects = [
       'Time series forecasting model for retail sales prediction. Evaluated using MAE, RMSE, and WMAE metrics, with seasonal decomposition and actionable insights for stock planning.',
     tags: ['Python', 'Time Series', 'scikit-learn', 'pandas'],
     links: {
-      github: 'https://github.com/miguelmaiadasilva',
+      github: 'https://github.com/miguelmaiadasilva/retail-sales-forecasting-timeseries',
     },
   },
 ]
