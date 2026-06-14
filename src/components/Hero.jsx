@@ -45,7 +45,7 @@ export default function Hero() {
                 View Projects
               </a>
               <a
-                href="/CV.pdf"
+                href="/Miguel_Maia_da_Silva_CV.pdf"
                 download
                 className="px-6 py-3 border border-border text-charcoal rounded-full font-medium text-sm hover:border-terra hover:text-terra hover:bg-terra-light transition-all duration-200"
               >

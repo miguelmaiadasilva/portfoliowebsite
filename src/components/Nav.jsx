@@ -41,7 +41,7 @@ export default function Nav() {
           </a>
         ))}
         <a
-          href="/CV.pdf"
+          href="/Miguel_Maia_da_Silva_CV.pdf"
           download
           className="ml-1.5 px-4 py-1.5 text-sm font-medium bg-charcoal text-white rounded-full hover:bg-terra transition-colors duration-200"
         >
