@@ -3,7 +3,7 @@ import SectionLabel from './SectionLabel.jsx'
 
 const timeline = [
   {
-    year: '2025',
+    year: '2026',
     title: 'Postgraduate, Data Analysis for Business',
     org: 'Polytechnic University of Cávado and Ave (IPCA)',
   },
