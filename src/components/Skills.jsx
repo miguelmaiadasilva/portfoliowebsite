@@ -16,7 +16,7 @@ const skillGroups = [
       { name: 'Power BI', svg: '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="14" width="4" height="8" rx="1" fill="#F2C811"/><rect x="8" y="9" width="4" height="13" rx="1" fill="#F2C811" opacity="0.8"/><rect x="14" y="4" width="4" height="18" rx="1" fill="#F2C811" opacity="0.6"/><rect x="20" y="7" width="2" height="15" rx="1" fill="#F2C811" opacity="0.4"/></svg>' },
       { name: 'Excel', svg: '<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="20" height="20" rx="3" fill="#217346"/><text x="12" y="17" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff">X</text></svg>' },
       { name: 'matplotlib', devicon: 'devicon-matplotlib-plain colored' },
-      { name: 'seaborn', abbr: 'SB', color: '#444876', bg: '#E9EAF2' },
+      { name: 'seaborn', img: '/icons/seaborn.png' },
     ],
   },
   {
@@ -25,7 +25,7 @@ const skillGroups = [
       { name: 'pandas', devicon: 'devicon-pandas-plain colored' },
       { name: 'NumPy', devicon: 'devicon-numpy-plain colored' },
       { name: 'scikit-learn', devicon: 'devicon-scikitlearn-plain colored' },
-      { name: 'statsmodels', abbr: 'SM', color: '#1F6FB4', bg: '#E7F0F8' },
+      { name: 'statsmodels', img: '/icons/statsmodels.svg' },
       { name: 'Streamlit', svg: '<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L2 19.5h20L12 2z" fill="#FF4B4B"/><path d="M12 8l-5 9.5h10L12 8z" fill="#FF4B4B" opacity="0.6"/></svg>' },
     ],
   },
@@ -81,6 +81,8 @@ function SkillGroup({ group, delay }) {
           <div key={skill.name} className="flex items-center gap-3.5">
             {skill.devicon ? (
               <i className={`${skill.devicon} text-[1.6rem] leading-none`} />
+            ) : skill.img ? (
+              <img src={skill.img} alt="" className="w-7 h-7 object-contain flex-shrink-0" />
             ) : skill.svg ? (
               <div
                 className="w-7 h-7 flex-shrink-0"
