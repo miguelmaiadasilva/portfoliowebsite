@@ -35,15 +35,15 @@ export default function Nav() {
           <a
             key={label}
             href={href}
-            className="px-4 py-1.5 text-sm font-medium text-ink rounded-full hover:bg-terra-light hover:text-terra transition-all duration-200"
+            className="px-3 sm:px-4 py-1.5 text-sm font-medium text-ink rounded-full hover:bg-terra-light hover:text-terra transition-all duration-200"
           >
             {label}
           </a>
         ))}
         <a
-          href="/Miguel_Maia_da_Silva_CV.pdf"
+          href="/Miguel_Maia_Silva_cv.pdf"
           download
-          className="ml-1.5 px-4 py-1.5 text-sm font-medium bg-charcoal text-white rounded-full hover:bg-terra transition-colors duration-200"
+          className="ml-1.5 px-3 sm:px-4 py-1.5 text-sm font-medium whitespace-nowrap bg-charcoal text-white rounded-full hover:bg-terra transition-colors duration-200"
         >
           CV ↓
         </a>

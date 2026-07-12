@@ -45,7 +45,7 @@ export default function Hero() {
                 View Projects
               </a>
               <a
-                href="/Miguel_Maia_da_Silva_CV.pdf"
+                href="/Miguel_Maia_Silva_cv.pdf"
                 download
                 className="px-6 py-3 border border-border text-charcoal rounded-full font-medium text-sm hover:border-terra hover:text-terra hover:bg-terra-light transition-all duration-200"
               >
@@ -81,12 +81,9 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right — photo
-              Height is calculated to match the h1:
-                4 lines × font-size × leading-[1.04]
-                lg  (text-6xl  = 3.75rem): 4 × 3.75 × 1.04 ≈ 15.6rem → h-[16rem]
-                xl  (4.5rem)            : 4 × 4.5  × 1.04 ≈ 18.7rem → h-[19rem]
-          */}
+          {/* Right — photo. Syne 800 runs ~1em per glyph, so each phrase above
+              wraps mid-break into a six-line poster lockup at every breakpoint;
+              that tall stack is what the photo height is tuned against. */}
           <div className="flex justify-center order-1 lg:order-2">
             <div className="relative w-64 h-80 lg:w-[20rem] lg:h-[26rem] xl:w-[24rem] xl:h-[30rem]">
               {/* Decorative layers */}

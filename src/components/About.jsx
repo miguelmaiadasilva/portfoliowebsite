@@ -6,6 +6,7 @@ const timeline = [
     year: '2026',
     title: 'Postgraduate, Data Analysis for Business',
     org: 'Polytechnic University of Cávado and Ave (IPCA)',
+    badge: 'Grade: 19/20',
   },
   {
     year: '2024',
@@ -105,9 +106,9 @@ function TimelineItem({ item, delay, last }) {
         <span className="absolute -left-[5.5px] top-2 w-2.5 h-2.5 rounded-full bg-terra ring-4 ring-white" />
         <p className="flex flex-wrap items-center gap-x-3 gap-y-1">
           <span className="font-medium text-charcoal">{item.title}</span>
-          {item.ongoing && (
+          {(item.badge || item.ongoing) && (
             <span className="text-[11px] font-semibold text-terra bg-terra-light px-2 py-0.5 rounded-full">
-              In progress
+              {item.badge || 'In progress'}
             </span>
           )}
         </p>

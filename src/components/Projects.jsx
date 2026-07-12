@@ -6,7 +6,7 @@ const projects = [
     number: '01',
     title: 'Hotel Booking Analytics Dashboard',
     description:
-      'Multi-page Power BI dashboard with a star schema data model, 15+ custom DAX measures, and analysis across booking trends, cancellation risk, and revenue optimisation. From raw SQL data to executive-ready insight.',
+      'Multi-page Power BI dashboard with a star schema data model, 35+ custom DAX measures, and analysis across booking trends, cancellation risk, and revenue optimisation. From raw SQL data to executive-ready insight.',
     tags: ['Power BI', 'SQL', 'DAX', 'Star Schema'],
     links: {
       github: 'https://github.com/miguelmaiadasilva/hotel-booking-analytics-dashboard',
